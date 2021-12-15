@@ -18,8 +18,6 @@
 <h2> What I use to build this project?</h2>
 
 ```
-HTML
-CSS
 React
 Styled Components (Styles library)
 Leaflet (Map library)
