@@ -10,25 +10,71 @@ body {
   margin: 0;
 }
 
+/* WORKING */
+
 .app-container {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-
-.leaflet-container {
-  width: 100%;
-  height: 100vh;
+  justify-content: space-between;
 }
 
 #map {
-  width: 65%;
-  height: 100vh;
+  width: 100%;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(116, 110, 110);
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 60vh;
+}
+
+#exercises-container {
+  min-height: 40vh;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+  }
+  #map {
+    width: 60%;
+    height: 100vh;
+  }
+
+  .leaflet-container {
+    height: 100vh;
+  }
+
+  #exercises-container {
+    width: 40%;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 1280px) {
+  #map {
+    width: 65%;
+  }
+
+  #exercises-container {
+    width: 35%;
+  }
+}
+@media (min-width: 1440px) {
+  #map {
+    width: 70%;
+  }
+
+  #exercises-container {
+    width: 30%;
+  }
 }
 
 .leaflet-popup-content-wrapper {

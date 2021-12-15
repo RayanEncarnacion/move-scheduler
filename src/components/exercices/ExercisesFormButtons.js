@@ -6,7 +6,7 @@ const FormBtnContainer = styled.div`
   justify-content: flex-end;
   justify-content: end !important;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 `;
 
 const ExercisesFormButtons = (props) => {

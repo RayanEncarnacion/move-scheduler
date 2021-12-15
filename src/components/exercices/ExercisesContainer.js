@@ -7,7 +7,7 @@ import GeolocationStore from "../store/map-store/geolocation-store";
 
 const H1 = styled.h1`
   text-align: center;
-  margin: 0.5em 0 0 0.3em;
+  margin: 0.3em 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 `;
@@ -20,14 +20,14 @@ const ExercisesContainer = () => {
   let begginingText = "";
   if (exercisesList.length <= 0) {
     begginingText = (
-      <h2 style={{ margin: "7em auto 0", textAlign: "center" }}>
+      <h4 style={{ margin: "2em auto 0", textAlign: "center" }}>
         Click on the map to add Exercises!
-      </h2>
+      </h4>
     );
   }
 
   return (
-    <Container flexCol style={styles}>
+    <Container id="exercises-container" flexCol style={styles}>
       <div>
         <H1>Move Scheduler</H1>
         {!formIsShown && begginingText}

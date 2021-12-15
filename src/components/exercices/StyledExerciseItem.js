@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 const StyledItem = styled.li`
   position: relative;
-  width: 80%;
+  width: 90%;
   max-width: 400px;
-  padding: 1em;
+  font-size: 0.8em;
+  padding: 0.7em;
   background: #555;
   color: #f2f2f2;
   list-style: none;
@@ -22,7 +23,7 @@ const StyledItem = styled.li`
   animation: slide 0.5s ease-in-out;
 
   & h4 {
-    margin: 0 0 0.7em;
+    margin: 0.2em 0 0.5em;
   }
 
   & button {
@@ -34,15 +35,19 @@ const StyledItem = styled.li`
     outline: none;
     color: #f3f3f3;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1em;
     cursor: pointer;
   }
 
   & div {
-    font-size: 1em;
+    font-size: 0.9em;
     display: flex;
     justify-content: space-between;
     aling-items: center;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 1em;
   }
 `;
 
