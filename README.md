@@ -26,3 +26,4 @@ Leaflet (Map library)
 <h2>Thank you for reading!!</h2>
 
 I hope you like it and fell free to contact me so we can work together!
+Contact me: <a href = "https://rayanencarnacion.netlify.app/#contact" target="blank">Rayan Encarnacion</a>
