@@ -1,4 +1,5 @@
 <h1>Move Scheduler</h1>
+<a href="https://movescheduler.netlify.app/">Live App</a>
 
 <p>This is an app created with React in which the user can schedule exercises and mark the location of the exercise on the map while a tooltip with the exercise details.</p>
 
