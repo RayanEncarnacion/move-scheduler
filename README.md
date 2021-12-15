@@ -11,11 +11,11 @@
 <p>3 - Fill all the inputs on the form to save the exercise.</p>
 <p>4 - A list item will pop up on the screen with the exercise details and a marker with a permanent tooltip will appear on the position where the user clicked the map.</p>
 
-<h3>How to delete the exercise item?</h3>
+<h3>How to delete an exercise item?</h3>
 
 <p>A click on the "x" icon on the exercise item will permanently delete the exercise and remove the marker from the map.</p>
 
-<h2> What I use to build this project?</h2>
+<h2> What I've used to build this project?</h2>
 
 ```
 React
