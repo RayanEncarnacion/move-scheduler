@@ -4,7 +4,7 @@ const StyledItem = styled.li`
   position: relative;
   width: 90%;
   max-width: 400px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding: 0.7em;
   background: #555;
   color: #f2f2f2;
@@ -46,8 +46,9 @@ const StyledItem = styled.li`
     aling-items: center;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 420px) {
     font-size: 1em;
+    padding: 1em;
   }
 `;
 
